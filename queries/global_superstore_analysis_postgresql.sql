@@ -521,7 +521,6 @@ alter table superstore
 alter column order_date type DATE
 using to_date(order_date, 'YYYY-mm-dd');
 
-
 select
 	customer_id,
 	customer_name,
