@@ -39,13 +39,13 @@ Key columns are -
 - relation between profit and discount over the years? Does giving more discount benefits the business?
 
 
-## Some visual insights
+## Visual Insights
 
 ### Analysis of the customer base
 
 <img src="png/Customer analysis.png" width="900"/><br>
 
-**1.** _The customer base is pretty fairly distributed among APAC, EU, LATAM, US, EMEA and AFRICA. While the market in CANADA is still yet to develop. Conducting a new marketing program can be beneficial for the company._
+**1.** _The customer base is pretty fairly distributed among APAC, EU, LATAM, US, EMEA and AFRICA. While the market in CANADA is yet to develop. Conducting a new marketing program can be beneficial for the company._
 
 **2.** _Also another report shows that the customer retention increased over the year while the transactions of new customers has been decreasing. This highlights a marketing issue of the company, signaling that a restructural change in its marketing is needed._
 
@@ -56,7 +56,7 @@ RFM stands for -
 - **Frequency** - _how often a customer do transactions._
 - **Monetary** - _how much a customer has spent in total value._
 
-<img src="png/RFM logic.png" width="600"/><br>
+<img src="png/RFM logic.png" width="800"/><br>
 
 - _approximately 2.9k customers falls in "potential loyalist" category. There purchase history shows a pretty fair transaction gap but they aren't close to being loyal._
 - _approximately 2.8k customers falls in "at risk" category. This base of customer has a gap of transaction over 120 days, highlighting a potential churn risk._
@@ -67,10 +67,33 @@ RFM stands for -
 
 **4.** _the customer growth reports shows a significant growth in every regions over the year, indicating a smooth reputation build-up. African regions has maintained a linear growth of customer base over the year._
 
-### Product Analysis
+### Delivery Timing analysis
 
-<img src="png/Product analysis part 1.png" width="900"/></br>
+<img src="png/Delivery time analysis.png" width="900"/><br>
+
+**1.** _From the average delivery report, south sudan from african market has seen the highest average deliver day(approx. 6 days), while chad, which is also from african market has the shortest average gap between their delivery day(2 days)._
+
+**2.** _From the average delivery day gap by year and quarter report, the business maintained good delivery day average(approx. 4 days) through 2011, before it hit 4.03 mark in 2012 q2. The second time it hit the lowest average delivery day in Q1 of 2014(3.90)._
+
+
+### Product analysis
+
+<img src="png/Product analysis part 1.png" width="900"/><br>
 
 <img src="png/Product analysis part 2.png" width="900"/><br>
 
+**💡 Key insights**
+
+**1.** _The Top 10 Profitable Products Report highlights key revenue-driving items across customer segments.
+
+**Canon imageClass 2200 Advanced Copier** generated the **highest overall profit**, earning approximately $13,000 from Consumer grade customers and $8,000 from Corporate grade customers. It ranks as the top-performing product for both these segments, signalling its high demand and profit making ability among corporate level workspaces.
+
+On the other hand, the **Motorola Smartphone(Full Size)** got the most revenue generated out of the Home Office grade customers, which is the top segment in the customer group._
+
+**2.** _The total Sales by sub-category report has revealed that **Phones**, **Copiers** and **Chairs** has sold the most among all other sub-categories, signalling a strong Technology Dominated market for the business. These 3 sub-categories combined contributed to 37.3% Sales value to the total sales value._
+
+**3.** _Staples has the most quantity(876) sold among all other products._
+
+**4.** _**Apple Smart Phone(Full Size)** was sold the most over the years, making $6000 in profit for the company, which ranks at **5th** position of profit making in the Top 10 product by sales and profit chart. On the other hand, **Samsung Smart Phone (cordless)** has made close to $0 profit for the company, which raises major concern for the brand._
+**The Apple Smartphone (Full Size)** generated approximately $87,000 in total sales, with the majority of this revenue coming from the African region. Quite Interestingly, Africa contributes only 6.2% of the total sales value and has shown weak, linear customer growth over the years. It may highlight a shift towards customer's preferrence._
 

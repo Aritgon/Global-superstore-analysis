@@ -529,3 +529,11 @@ from superstore
 group by
 	customer_id,
 	customer_name;
+
+-- Top 3 sub-category's total sales.
+select
+	Sub_category,
+	round((sum(sales)*100 / (select sum(sales) from superstore)), 2) as phone_sales_percentage
+from superstore
+where sub_category in ('Phones', 'Copiers', 'Chairs')
+group by Sub_category;
