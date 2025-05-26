@@ -43,7 +43,7 @@ Key columns are -
 
 ### Analysis of the customer base
 
-<img src="png/Customer analysis.png" width="600"/><br>
+<img src="png/Customer analysis.png" width="900"/><br>
 
 **1.** _The customer base is pretty fairly distributed among APAC, EU, LATAM, US, EMEA and AFRICA. While the market in CANADA is still yet to develop. Conducting a new marketing program can be beneficial for the company._
 
@@ -56,7 +56,7 @@ RFM stands for -
 - **Frequency** - _how often a customer do transactions._
 - **Monetary** - _how much a customer has spent in total value._
 
-<img src="png/RFM logic.png" width="300"/><br>
+<img src="png/RFM logic.png" width="600"/><br>
 
 - _approximately 2.9k customers falls in "potential loyalist" category. There purchase history shows a pretty fair transaction gap but they aren't close to being loyal._
 - _approximately 2.8k customers falls in "at risk" category. This base of customer has a gap of transaction over 120 days, highlighting a potential churn risk._
@@ -69,8 +69,8 @@ RFM stands for -
 
 ### Product Analysis
 
-<img src="png/Product analysis part 1.png" width="600"/></br>
+<img src="png/Product analysis part 1.png" width="900"/></br>
 
-<img src="png/Product analysis part 2.png" width="600"/><br>
+<img src="png/Product analysis part 2.png" width="900"/><br>
 
 
