@@ -511,6 +511,7 @@ from cte;
 
 
 -- changing the date type in the database.
+
 alter table superstore
 alter column order_date type text;
 
@@ -537,3 +538,31 @@ select
 from superstore
 where sub_category in ('Phones', 'Copiers', 'Chairs')
 group by Sub_category;
+
+-- Region wise churn analysis.
+with f_cte as (
+	select
+		region,
+		customer_id,
+		customer_name,
+		to_char(max(order_date), 'YYYY-mm') as last_order_date
+	from superstore
+	group by 
+		region,
+		customer_id,
+		customer_name
+	),
+
+	s_cte as (
+	select
+		max(order_Date) as last_transaction_date
+	from superstore
+	)
+
+select
+	f.region,
+	f.customer_id,
+	f.customer_name,
+	extract(day from (last_order_date::date - last_transaction_date::date)) as transaction_gap
+from f_cte as f
+cross join s_cte as s;
