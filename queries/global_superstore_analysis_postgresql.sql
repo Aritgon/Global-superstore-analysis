@@ -566,3 +566,39 @@ select
 	extract(day from (last_order_date::date - last_transaction_date::date)) as transaction_gap
 from f_cte as f
 cross join s_cte as s;
+
+-- RFM analysis.
+-- first cte for customer details.
+with cte as (
+
+-- single cte to create recency, frequency and monetary.
+	select
+		customer_id,
+		((select max(order_date::date) from superstore) - max(order_date::date)) as recency,
+		count(order_id) as frequency,
+		sum(sales) as monetary
+	from superstore
+	group by customer_id
+),
+
+-- a single cte to create segments based on recency, frequency and monetary.
+case_cte as (
+	select
+		case
+			when recency <= 30 and frequency >= 10 and monetary >= 4000 then 'Champion'
+			when recency <= 60 and frequency >= 7 and monetary >= 1500 then 'Loyal'
+			when recency <= 90 and frequency >= 3 then 'Potential Loyalist'
+			when recency > 120 and frequency >= 5 then 'At Risk'
+			when recency > 180 then 'Lost'
+		else 'Others'
+		end as cust_segment,
+		count(*) as customer_count
+	from cte
+	group by cust_segment
+)
+
+-- final showdown.
+select * from case_cte;
+
+
+select count(distinct customer_id) from superstore;

@@ -58,14 +58,15 @@ RFM stands for -
 
 <img src="png/RFM logic.png" width="800"/><br>
 
-- _approximately **2.9k** customers falls in "potential loyalist" category. There purchase history shows a pretty fair transaction gap but they aren't close to being loyal._
-- _approximately **2.8k** customers falls in "at risk" category. This base of customer has a gap of transaction **over 120 days**, highlighting a potential churn risk._
+- _As per the RFM chart, the customer segment of **"Potential Loyalist"** has been the majority of customers through out the years, covering over **37%** of total customers. This customers purchase in every **60 to 90 days**, with **3+** transactions, showing a decent engagement.
+Later follows the **Loyal** segment, covering over **32%** of total customers, who purchase frequently (every 60 days) and has more transactions (7+ orders)._
 
-**💡Insight**: _Both of the customer category is dominating the customer base but it also suggests a large portion of the customer base has an **mid-to-high inactivity gaps**. This is a critical area for engagement and major fixes, indicating the business should:
+**💡Insight**: _Both segments maintain a **2-3 month purchase cycles**, highlighting **decent retention** over the time. However, with only **1,016** Champions (approx. 21% of total customer base), there's significant opportunity to upgrade these customers.
 
-    - Nurture potential loyalists with offers and loyalty programs,
-    - Running more marketing campaigns.For example, giving coupons to at-risk customers.
-
+**Major actions to consider:**
+    - Introducing personalized offers, **loyalty point programs** or **coupons** to increase their purchase frequency.
+    - Launching **VIP access** or **Premium Memberships** to retain **loyal** group of customers and convert them to **champion** category as well.
+    
 **4.** _the customer growth reports shows a significant growth in every regions over the year, indicating a smooth reputation build-up, while the **African** region has maintained a linear growth of customer base over the year._
 
 ### Delivery Timing analysis
