@@ -124,7 +124,7 @@ _On the other hand, the region of both **Canada** and **carribea** had a quite s
 ## 🔨 Tools used
 1. Pandas - for cleaning.
 2. SQL(postgreSQL) - for queries.
-3. PowerBI - for visual dashboards(level - beginner to intermediate).
+3. PowerBI - for visual dashboards.
 4. VScode - for documentation.
 5. Github - For publishing the project.
 
